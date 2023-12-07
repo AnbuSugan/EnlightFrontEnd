@@ -1,0 +1,314 @@
+/* Head Content */
+
+.headwrapper1 {
+  margin-top: 60px;
+}
+
+.headbg {
+  background-image: url("../img/bg13.jpg");
+
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color-secondary);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 120px 0 60px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+#error-message {
+  color: red;
+  margin-top: 5%;
+}
+
+/* registerPage */
+.headSign {
+  color: black;
+}
+.invalid-tooltip {
+  color: red;
+  background-color: white !important;
+}
+
+.registerPage {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+
+  border: 2px solid white;
+  border-radius: 5%;
+  background-color: white;
+
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.registerBtns {
+  width: 40%;
+}
+@media (max-width: 575.98px) {
+  .navBg {
+    background-color: #0a0d13;
+
+    z-index: 999;
+    padding: 15px 0;
+
+    position: fixed;
+    width: 100%;
+  }
+  .registerPage {
+    box-sizing: border-box;
+    width: 90%;
+    height: 100%;
+    margin-left: 4%;
+
+    border: 2px solid white;
+    border-radius: 5%;
+    background-color: white;
+
+    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
+  }
+  .headpara ul li {
+    font-size: 15px !important;
+  }
+  .headSign {
+    color: black;
+  }
+  .invalid-tooltip {
+    color: red;
+    background-color: white !important;
+    font-size: 8px !important;
+  }
+
+  .userNameLabels {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-left: 6% !important;
+  }
+  #userNames {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+  .userNameErrors {
+    margin-left: 20%;
+  }
+  .passwordLabels {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-left: 5%;
+  }
+  #passwords {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+
+  .termsLabels {
+    margin-right: 30% !important;
+    color: black;
+    font-size: 15px !important;
+    font-weight: 100px;
+  }
+  .termsLabelss {
+    margin-left: 10%;
+  }
+
+  .form-check-input[type="checkbox"] {
+    border-color: blue;
+  }
+}
+
+.userNameLabels {
+  color: black;
+  font-size: 20px;
+  font-weight: 100px;
+  margin-right: 70%;
+}
+#userNames {
+  border-color: blue;
+  width: 80%;
+  padding: 12px;
+
+  margin-left: 7%;
+}
+.userNameErrors {
+  margin-left: 7%;
+}
+.passwordLabels {
+  color: black;
+  font-size: 20px;
+  font-weight: 100px;
+  margin-right: 70%;
+}
+#passwords {
+  border-color: blue;
+  width: 80%;
+  padding: 12px;
+  margin-left: 7%;
+}
+.passwordErrors {
+  margin-left: 7%;
+}
+
+.termsLabelss {
+  margin-right: 30%;
+  color: black;
+  font-size: 20px;
+  font-weight: 100px;
+}
+.termsLabels {
+  margin-left: 10%;
+}
+
+.form-check-input[type="checkbox"] {
+  border-color: blue;
+}
+
+.headwrapper1 {
+  margin-top: 60px;
+}
+.headwrapper {
+  text-align: justify;
+}
+.headpara {
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.headwrapper1 {
+  margin-top: 60px;
+}
+.headwrapper {
+  text-align: justify;
+}
+.headpara {
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.clientcount {
+  justify-content: space-between;
+
+  font-size: 32px;
+}
+.clientCountNumber1::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 45%;
+  background-color: blue;
+
+  margin-top: 8%;
+}
+.clientCountNumber2::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 45%;
+  background-color: blue;
+
+  margin-top: 8%;
+}
+.clientCountNumber3::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 45%;
+  background-color: blue;
+
+  margin-top: 8%;
+}
+.clientCountNumber4::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 45%;
+  background-color: blue;
+
+  margin-top: 8%;
+}
+@media (max-width: 575.98px) {
+  .clientCountNumber1::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 45%;
+    background-color: blue;
+    margin-left: 25%;
+
+    margin-top: 8%;
+  }
+  .clientCountNumber2::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 45%;
+    background-color: blue;
+    margin-left: 25%;
+    margin-top: 8%;
+  }
+  .clientCountNumber3::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 45%;
+    background-color: blue;
+    margin-left: 25%;
+    margin-top: 8%;
+  }
+  .clientCountNumber4::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 45%;
+    background-color: blue;
+    margin-left: 25%;
+    margin-top: 8%;
+  }
+  .clientcount {
+    text-align: center;
+  }
+  .clientCountNumber1 {
+    font-size: 30px;
+
+    font-weight: 350;
+  }
+
+  .clientCountLetter1 {
+    font-size: 35px !important;
+    font-weight: 350;
+  }
+  .clientCountNumber2 {
+    font-size: 30px;
+
+    font-weight: 350;
+  }
+
+  .clientCountLetter2 {
+    font-size: 35px !important;
+    font-weight: 350;
+  }
+  .clientCountNumber3 {
+    font-size: 35px;
+
+    font-weight: 350;
+  }
+
+  .clientCountLetter3 {
+    font-size: 30px !important;
+    font-weight: 350;
+  }
+  .clientCountNumber4 {
+    font-size: 35px;
+
+    font-weight: 350;
+  }
+
+  .clientCountLetter4 {
+    font-size: 30px !important;
+    font-weight: 350;
+  }
+}
